@@ -1,6 +1,0 @@
-Query susah
-SELECT CONCAT(address,' ' ,unit_no) AS alamat, price, GROUP_CONCAT(feature) AS fitur
-     FROM house
-	JOIN housefeatures ON housefeatures.houseId = house.id
-	   GROUP BY HouseId;
-	   #Menggabungkan colum yang berbeda dengan id yang sama
